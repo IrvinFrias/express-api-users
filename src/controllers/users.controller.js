@@ -28,8 +28,7 @@ userController.createUser = async (req, res) => {
 //GET: single user
 userController.getUser = async (req, res) => {
     try{
-        const id = req.params.id;
-        const user = await User.findById(id);
+        const user = await User.findById(req.params.id);
         res.json(user);
     }catch (e){
         console.log("Error en GET single user")
