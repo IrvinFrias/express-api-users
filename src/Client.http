@@ -1,0 +1,16 @@
+GET http://localhost:9000/api/users
+Accept: application/json
+
+###
+POST http://localhost:9000/api/users
+Content-Type: application/json
+
+{
+  "name": "Irvin Fernando",
+  "lastname": "Frías Torres",
+  "email": "irvin.frias.unam@outlook.com",
+  "phone": "5514881143"
+
+}
+
+###
