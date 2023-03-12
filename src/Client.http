@@ -6,10 +6,10 @@ POST http://localhost:9000/api/users
 Content-Type: application/json
 
 {
-  "name": "nsfljnslnslg",
-  "lastname": "bsdjbsdkjbgksd",
-  "email": "JPÑ musbndp",
-  "phone": "this is my number"
+  "name": "Natalia",
+  "lastname": "Frías Torres",
+  "email": "natalia.frias.unam@outlook.com",
+  "phone": "5514895623"
 
 }
 
@@ -18,17 +18,17 @@ GET http://localhost:9000/api/users/640cce37b3a517c30c555282
 Accept: application/json
 
 ###
-PUT http://localhost:9000/api/users/640cce37b3a517c30c555282
+PUT http://localhost:9000/api/users/640cfa4c7fa2bfacabf72f12
 Content-Type: application/json
 
 {
-  "name": "Irvin Fernando",
+  "name": "Kevin Uriel",
   "lastname": "Frías Torres",
-  "email": "fer.frias.unam@gmail.com",
+  "email": "kevin.frias.unam@outlook.com",
   "phone": "5514881143"
 
 }
 
 ###
-DELETE http://localhost:9000/api/users/640cd16171cd4fb32e32e40a
+DELETE http://localhost:9000/api/users/640cf9487fa2bfacabf72f11
 Accept: application/json
